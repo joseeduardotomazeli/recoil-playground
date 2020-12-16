@@ -1,7 +1,18 @@
 import React from 'react';
+import { RecoilRoot } from 'recoil';
+
+import Title from './components/Title';
+import Input from './components/Input';
+import InputLength from './components/InputLength';
 
 function App() {
-  return <h1>Recoil Playground</h1>;
+  return (
+    <RecoilRoot>
+      <Title />
+      <Input />
+      <InputLength />
+    </RecoilRoot>
+  );
 }
 
 export default App;
