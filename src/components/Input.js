@@ -10,12 +10,7 @@ function Input() {
     setText(event.target.value);
   }
 
-  return (
-    <div>
-      <label htmlFor="input">Input: </label>
-      <input id="input" type="text" value={text} onChange={onChange} />
-    </div>
-  );
+  return <input id="input" type="text" value={text} onChange={onChange} />;
 }
 
 export default Input;
