@@ -1,4 +1,5 @@
 import { selector } from 'recoil';
+
 import textAtom from '../atoms/text';
 
 const textLength = selector({
